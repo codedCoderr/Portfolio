@@ -1,0 +1,191 @@
+/*===================================================================================
+	Typography links 
+ 	Import Google Fonts
+=====================================================================================*/
+@import url("https://fonts.googleapis.com/css?family=Cairo:400,600,700|Markazi+Text:500");
+
+body{
+	direction:rtl;
+	unicode-bidi:embed;
+	font-family: 'Markazi Text', serif;
+	font-weight: 500;
+	font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Cairo', sans-serif;
+	text-align: right;
+	font-weight: 600;
+}
+a{
+	font-family: 'Cairo', sans-serif;
+}
+p{
+	font-family: 'Markazi Text', serif;
+	font-size: 16px;
+}
+ul li{
+	text-align: right;
+}
+.btn{
+	font-size: 16px;
+}
+.contact_massage{
+	left: 0;
+	right: unset;
+}
+.sidebar{
+	left: unset;
+	right: 0;
+}
+.on-panel{
+	right: -45px;
+}
+.color-panel{
+	left: -225px;
+	right: unset;
+}
+.color-panel.open{
+	left: 0;
+	right: unset;
+}
+.sidenav{
+	right: 0;
+	left: unset;
+}
+.pattan:after{
+	right: 0;
+	left: unset;
+}
+.sidenav a{
+	font-size: 16px;
+}
+#mysidenav img{
+	margin-right: 30px;
+}
+#pp-nav.right {
+    left: 17px;
+    right: unset;
+}
+.personal_info ul li{
+	font-family: 'Cairo', sans-serif;
+}
+.personal_info ul li span{
+	float: right;
+	text-align: right;
+}
+.education_experience,.video_content{
+	margin-right: 105px;
+}
+.owl-stage{
+	display: table !important;
+}
+.services_item.owl-carousel,
+.team_member.owl-carousel,
+.testimonial_item.owl-carousel{
+	direction: ltr;
+}
+.personal_info ul li {
+	font-style: 14px;
+}
+.list ul li{
+	text-align: center;
+}
+.client_img img{
+	left: unset;
+	right: 30px;
+}
+.widget_title:before{
+	left: unset;
+	right: 0px;
+}
+.twite i{
+	padding-right: unset;
+	padding-left: 15px;
+}
+.contact_info span{
+	font-size: 15px;
+}
+.contact_info ul li .contact_icon {
+    margin-left: 20px;
+    margin-right: unset;
+    float: right !important;
+}
+.radio_check{
+	display: -webkit-box;
+}
+.skill-progress{
+	direction: ltr;
+}
+
+.counter h3{
+	text-align: center;
+}
+.socal_media_2 ul li:last-child{
+	padding-right: 0px;
+}
+.subscribe button.btn{
+	padding: 9px 30px;
+}
+.comments span{
+	right: 15px;
+	font-size: 15px;
+}
+.pagination{
+	direction: ltr;
+}
+.category_sidebar ul li a,
+.archives ul li,
+.archives ul li a,
+.tags ul li,
+.author_img{
+	float: right;
+}
+.category_sidebar ul li{
+	display: table;
+}
+.category_sidebar ul li span,
+.author_info span{
+	float: left;
+}
+.admin img{
+	float: right;
+	margin-right: 0;
+}
+.blog_details .date{
+	margin-right: 15px;
+}
+.blog_details .comments{
+	margin-right: -15px;
+	margin-left: 0;
+}
+.author_text{
+	padding-left: 0px;
+	padding-right: 30px;
+}
+/*
+// Large devices (desktops, 992px and up)
+============================================================*/
+@media (max-width: 1199px){
+  .services,.portfolio2,.pricing,.team,.testimonial,.contact,.footer_bottom{
+    margin-right: 70px;
+    margin-left: unset;
+  }
+}
+
+/*
+// Small devices (landscape phones, 576px and up)
+============================================================*/
+@media (max-width: 767px){
+	h1 {
+    font-size: 16px;
+    line-height: 22px;
+	}
+  .carousel-caption{
+    right: 20%;
+	}
+  .about_myself,.education_experience,.video_content,.services,
+  .portfolio2,.pricing,.team,.testimonial,.contact,.footer_bottom{
+      margin-right: 70px;
+      margin-left: unset;
+  }
+}
