@@ -2470,9 +2470,9 @@ label.radios {
       border: 2px solid;
       font-size: 11px;
   }
-  .carousel-caption{
+  /* .carousel-caption{
     top: 40%;
-  }
+  } */
   .contact_massage{
     top: 20px;
     width: 50px;
@@ -2488,7 +2488,7 @@ label.radios {
     width: 100%;
   }
   .carousel-caption{
-    left: 15%;
+    left: 25%;
   }
   h1 {
       font-size: 20px;
@@ -2636,9 +2636,9 @@ label.radios {
       padding: 5px 15px;
       font-size: 12px;
   }
-  .carousel-caption{
+  /* .carousel-caption{
     top: 43%;
-  }
+  } */
   .carousel-caption p {
       width: 100%;
   }
