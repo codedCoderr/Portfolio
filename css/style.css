@@ -104,7 +104,7 @@ ul li{
 }
 a{
 	display: inline-block;
-	font-family: 'Poppins', sans-serif;
+	/* font-family: 'Poppins', sans-serif; */
 }
 a:hover,a:focus,a.active{
 	text-decoration: none !important;
@@ -592,7 +592,7 @@ ul#menu li a{
 /*===============================================================================
 11.   Slider 
 =================================================================================*/
-.pattan{
+/* .pattan{
     position: relative;
 }
 .pattan:after{
@@ -606,7 +606,7 @@ ul#menu li a{
     z-index: 9;
     width: 40%;
     height: auto;
-}
+} */
 .carousel-caption{
     position: absolute;
     text-align: left;
@@ -1264,9 +1264,9 @@ ul#menu li a{
 .contact_info ul li .contact_icon{
     margin-right: 20px;
 }
-.contact_text{
+/* .contact_text{
   display: table-cell;
-}
+} */
 .twite i {
     padding-right: 15px;
 }
@@ -2643,7 +2643,7 @@ label.radios {
       width: 100%;
   }
   .pattan:after{
-    width: 50%;
+    width: 5%;
   }
   .about_myself,.education_experience,.video_content,.services,
   .portfolio2,.pricing,.team,.testimonial,.contact,.footer_bottom{

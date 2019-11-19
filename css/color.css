@@ -189,12 +189,12 @@ ul#menu li a:hover,.twite i,.twite a:hover,.category_sidebar ul li:hover,
 
 /*	Overlay Color
 ===================================================================*/
-.overlay_one:before{
+/* .overlay_one:before{
 	background: rgba(0,0,0,0.2);
-}
-.overlay_three:before{
+} */
+/* .overlay_three:before{
 	background: rgba(0,0,0,0.3);
-}
+} */
 .overlay_two:before,.overlay-box{
 	background: rgba(0,0,0,0.9);
 }
