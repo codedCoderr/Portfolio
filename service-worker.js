@@ -64,9 +64,9 @@ self.addEventListener('activate', function(event) {
   ];
 
   event.waitUntil(
-    caches.keys().then(function(cacheNames) {
+    caches.keys().then(function(urlsToCache) {
       return Promise.all(
-        cacheNames.map(function(cacheName) {
+        urlsToCache.map(function(cacheName) {
           if (cacheWhitelist.indexOf(cacheName) === -1) {
             return caches.delete(cacheName);
           }
