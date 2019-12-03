@@ -1,6 +1,13 @@
 var CACHE_NAME = 'coded';
 var urlsToCache = [
   '/',
+  '/#page1',
+  '/#page2',
+  '/#page3',
+  '/#page4',
+  '/#page5',
+  '/#page6',
+  '/#page7',
   '/css/font-awesome.min.css',
   '/css/bootstrap.min.css',
   '/css/jquery.pagepiling.css',
@@ -31,6 +38,13 @@ self.addEventListener('install', function(event) {
 self.addEventListener('activate', function(event) {
   var cacheWhitelist = [
     '/',
+    '/#page1',
+    '/#page2',
+    '/#page3',
+    '/#page4',
+    '/#page5',
+    '/#page6',
+    '/#page7',
     '/css/font-awesome.min.css',
     '/css/bootstrap.min.css',
     '/css/jquery.pagepiling.css',
