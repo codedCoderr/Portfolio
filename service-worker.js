@@ -1,16 +1,23 @@
-// self.addEventListener('install', event => {
-//   console.log('Inside the install handler:', event);
-// });
-
-// self.addEventListener('activate', event => {
-//   console.log('Inside the activate handler:', event);
-// });
-
-// self.addEventListener(fetch, event => {
-//   console.log('Inside the fetch handler:', event);
-// });
 var CACHE_NAME = 'coded';
-var urlsToCache = ['/', '/css/style.css', '/js/index.js'];
+var urlsToCache = [
+  '/',
+  '/css/font-awesome.min.css',
+  '/css/bootstrap.min.css',
+  '/css/jquery.pagepiling.css',
+  '/css/plugins.css',
+  '/css/color.css',
+  '/css/style.css',
+  '/css/rtl.css',
+  '/js/app.js',
+  '/js/bootstrap.min.js',
+  '/js/custom.js',
+  '/js/index.js',
+  '/js/jquery.min.js',
+  '/js/jquery.pagepiling.min.js',
+  '/js/particles.min.js',
+  '/js/plugins.js',
+  '/js/popper.min.js'
+];
 
 self.addEventListener('install', function(event) {
   // Perform install steps
@@ -22,7 +29,25 @@ self.addEventListener('install', function(event) {
   );
 });
 self.addEventListener('activate', function(event) {
-  var cacheWhitelist = ['/', '/css/style.css', '/js/index.js'];
+  var cacheWhitelist = [
+    '/',
+    '/css/font-awesome.min.css',
+    '/css/bootstrap.min.css',
+    '/css/jquery.pagepiling.css',
+    '/css/plugins.css',
+    '/css/color.css',
+    '/css/style.css',
+    '/css/rtl.css',
+    '/js/app.js',
+    '/js/bootstrap.min.js',
+    '/js/custom.js',
+    '/js/index.js',
+    '/js/jquery.min.js',
+    '/js/jquery.pagepiling.min.js',
+    '/js/particles.min.js',
+    '/js/plugins.js',
+    '/js/popper.min.js'
+  ];
 
   event.waitUntil(
     caches.keys().then(function(cacheNames) {
