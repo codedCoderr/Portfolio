@@ -150,7 +150,7 @@ a:hover,a:focus,a.active{
 	margin-left: 0px !important;
 }
 .pp-scrollable{
-    overflow-y: scroll;
+    overflow-x: hidden;
     height: 100%;
 }
 .full_row{
@@ -236,9 +236,9 @@ a:hover,a:focus,a.active{
 .pt_60{
 	padding-top: 60px;
 }
-.pb_60{
+/* .pb_60{
 	padding-bottom: 60px;
-}
+} */
 .pb_30{
 	padding-bottom: 30px;
 }
@@ -866,7 +866,7 @@ ul#menu li a{
   line-height: 62px;
 }
 .owl-nav{
-  margin-top: 50px !important;
+  /* margin-top: 50px !important; */
   text-align: center;
   margin: 0 auto;
 }
@@ -2279,6 +2279,11 @@ label.radios {
       width: 80%;
     }
 }
+@media (max-width:510px){
+  #long{
+    font-size: 10px !important;
+  }
+}
 /*
 // Medium devices (tablets, 768px and up)
 ============================================================*/
@@ -2352,6 +2357,7 @@ label.radios {
   .contact_text span{
     font-size: 13px;
   }
+  
   .company p,.company,.video_content{
     padding-bottom: 30px;
   }

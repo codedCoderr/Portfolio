@@ -47,7 +47,7 @@
 	background-color: #232323;
 }
 .bg_white{
-	background-color: #fff;
+	background-color: lightgrey;
 }
 /*	btn color
 ===================================================================*/
@@ -145,6 +145,7 @@ ul#menu li a:hover,.twite i,.twite a:hover,.category_sidebar ul li:hover,
 	background-color: #ffb32f !important;
 }
 ::-webkit-scrollbar-thumb{
+	/* display: none; */
 	background-color: #232323;
 }
 /*	Background Color Primary Class & ID
