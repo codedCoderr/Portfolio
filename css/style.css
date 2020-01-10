@@ -2743,10 +2743,11 @@ label.radios {
       font-size: 18px;
       line-height: 22px;
   }
-  .about_myself,.education_experience,.video_content,.services,
+  /* .about_myself,.education_experience,.video_content,.services,
   .portfolio2,.pricing,.team,.testimonial,.contact,.footer_bottom{
       margin-left: 55px;
-  }
+  } */
+  
   .main_nav{
     background-color: #818181 !important;
   }
